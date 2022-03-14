@@ -87,6 +87,139 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Base Styles for Header/Footer (All Pages) */
+
+.header-wrapper,
+.footer-wrapper,
+.copyright {
+  background: #202322;
+  color: #ffffff;
+  width: 100%;
+}
+
+.unplugged-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.unplugged-logo img,
+.unplugged-logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+nav {
+  width: 100%;
+  border-top: 1px solid #3a3a3a;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.125em;
+}
+
+.footer-wrapper,
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-decoration: none;
+  font-style: normal;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footer-contact,
+.social,
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.footer-address,
+.footer-address a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  line-height: 8px;
+  font-family: "Open Sans";
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-style: normal;
+  color: #ffffff;
+}
+
+/* Base styles for About Page */
+
+/* Base Styles for FAQ Page */
+
+/* Mobile Style for Homepage */
+
+html {
+  height: auto;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+.headline {
+  margin: 0;
+  height: 500px;
+  background: url(../img/jake-melara-30679-unsplash-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headline h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 55px 40px 0 20px;
+  margin: 0;
+  color: #e2e3ed;
+  font-size: 2.25em;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+/* Tablet Style for Homepage */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Desktop Styles for Homepage */
+
+@media only screen and (min-width: 1200px) {
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +393,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
