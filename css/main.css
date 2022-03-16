@@ -294,11 +294,11 @@ body {
     justify-content: flex-start;
     flex-flow: row wrap;
     width: 50%;
-    padding: 15px 0 15px 0px;
+    padding: 10px 0 10px 0px;
   }
 
   .unplugged-logo a {
-    padding: 0 0 0 120px;
+    padding: 0 0 0 60px;
   }
 
   .unplugged-logo img,
@@ -306,7 +306,7 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
-    width: 60%;
+    width: 65%;
   }
 
   nav {
@@ -319,6 +319,7 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-flow: row wrap;
+    padding: 15px 0;
   }
 
   #faq {
