@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -118,7 +118,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   list-style: none;
@@ -135,6 +135,14 @@ nav ul li a {
   font-size: 1.125em;
 }
 
+#faq {
+  padding: 0 3.125em 0 5.5rem;
+}
+
+#about {
+  padding: 0 5em 0 3em;
+}
+
 .footer-wrapper,
 .copyright {
   display: flex;
@@ -143,20 +151,84 @@ nav ul li a {
   flex-flow: column;
   text-decoration: none;
   font-style: normal;
-  width: 100%;
   padding-top: 50px;
+  width: 100%;
   background: #202322;
   color: #ffffff;
+  margin: 0;
+  height: 100%;
+}
+
+.footer-wrapper p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-content {
   width: 100%;
 }
 
 .footer-contact,
-.social,
-.copyright {
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  width: 100%;
+}
+
+.footer-contact h3 {
+  margin: 0 0 35px 0;
+  font-size: 18px;
+}
+
+.social h3 {
+  margin: 45px 0 15px 0;
+  font-size: 18px;
+}
+
+.social-emblems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0;
+}
+
+.social-emblems p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+
+  margin: 0;
+}
+
+.social-emblems a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 18px;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  width: 20%;
+  margin: 0;
+}
+
+.social-emblems i {
+  background-color: #527158;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
 }
 
 .footer-address,
@@ -171,17 +243,13 @@ nav ul li a {
   text-decoration: none;
   font-style: normal;
   color: #ffffff;
+  height: 45px;
 }
 
-/* Base styles for About Page */
-
-/* Base Styles for FAQ Page */
-
-/* Mobile Style for Homepage */
+/* Base Mobile Style for Homepage */
 
 html {
   height: auto;
-  width: 100%;
 }
 
 body {
@@ -210,14 +278,184 @@ body {
   font-weight: 500;
 }
 
-/* Tablet Style for Homepage */
+/* Base Mobile Styles for About Page */
 
-@media only screen and (min-width: 768px) {
+/* Base Mobile Styles for FAQ Page */
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Base Styles for Header/Footer (All Pages) */
+
+  .header-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .unplugged-logo {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    padding: 15px 0;
+  }
+
+  .unplugged-logo img,
+  .unplugged-logo a {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    padding: 0 50px 0 0;
+  }
+
+  nav {
+    width: 50%;
+    border-top: none;
+    padding: 15px 0;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  #faq {
+    padding: 0 35px 0 0;
+  }
+
+  #about {
+    padding: 0 60px 0 0;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .footer-contact,
+  .social {
+    width: 50%;
+  }
+
+  .footer-contact h3,
+  .social h3 {
+    margin: 0 0 15px 0;
+  }
+
+  .copyright {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  /* Base Tablet Style for Homepage */
+
+  .headline {
+    margin: 0;
+    height: 600px;
+    background: url(../img/jake-melara-30679-unsplash-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .headline h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 90px 200px 0 65px;
+    margin: 0;
+    color: #e2e3ed;
+    font-size: 2.25em;
+    font-family: "Poppins";
+    font-weight: 500;
+  }
+
+  /* Base Styles for About Page */
+
+  /* Base Styles for FAQ Page */
 }
 
-/* Desktop Styles for Homepage */
+/* Desktop Styles */
 
 @media only screen and (min-width: 1200px) {
+  /* Base Styles for Header/Footer (All Pages) */
+
+  .header-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .unplugged-logo {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    padding: 15px 0;
+  }
+
+  .unplugged-logo img,
+  .unplugged-logo a {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    padding: 0 50px 0 0;
+  }
+
+  nav {
+    width: 50%;
+    border-top: none;
+    padding: 15px 0;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  #faq {
+    padding: 0 35px 0 0;
+  }
+
+  #about {
+    padding: 0 60px 0 0;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .footer-contact,
+  .social {
+    width: 50%;
+  }
+
+  .copyright {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  /* Base Styles for About Page */
+
+  /* Base Styles for FAQ Page */
 }
 
 /* ==========================================================================
