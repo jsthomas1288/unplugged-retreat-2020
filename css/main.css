@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 16px;
   line-height: 1.4;
+  font-family: "Open Sans";
 }
 
 /*
@@ -108,7 +109,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 82%;
+  width: 75%;
 }
 
 nav {
@@ -118,7 +119,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
   list-style: none;
@@ -132,15 +133,7 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
   color: #e2e3ed;
-  font-size: 1.125em;
-}
-
-#faq {
-  padding: 0 3.125em 0 5.5rem;
-}
-
-#about {
-  padding: 0 5em 0 3em;
+  font-size: 18px;
 }
 
 .footer-wrapper,
@@ -156,7 +149,6 @@ nav ul li a {
   background: #202322;
   color: #ffffff;
   margin: 0;
-  height: 100%;
 }
 
 .footer-wrapper p {
@@ -175,16 +167,36 @@ nav ul li a {
   align-items: center;
   flex-flow: column;
   width: 100%;
+  font-family: "Open Sans";
 }
 
 .footer-contact h3 {
   margin: 0 0 35px 0;
   font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.footer-address,
+.footer-address a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  line-height: 8px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  text-decoration: none;
+  font-style: normal;
+  color: #ffffff;
+  height: 45px;
 }
 
 .social h3 {
   margin: 45px 0 15px 0;
   font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins";
 }
 
 .social-emblems {
@@ -202,7 +214,6 @@ nav ul li a {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
-
   margin: 0;
 }
 
@@ -231,26 +242,11 @@ nav ul li a {
   margin: 0;
 }
 
-.footer-address,
-.footer-address a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  line-height: 8px;
-  font-family: "Open Sans";
-  font-size: 0.875rem;
-  text-decoration: none;
-  font-style: normal;
-  color: #ffffff;
-  height: 45px;
+.copyright {
+  padding: 50px 0 20px;
 }
 
 /* Base Mobile Style for Homepage */
-
-html {
-  height: auto;
-}
 
 body {
   font-size: 16px;
@@ -270,10 +266,11 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 55px 40px 0 20px;
+  width: 83%;
+  padding: 55px 0 0 20px;
   margin: 0;
   color: #e2e3ed;
-  font-size: 2.25em;
+  font-size: 36px;
   font-family: "Poppins";
   font-weight: 500;
 }
@@ -282,10 +279,10 @@ body {
 
 /* Base Mobile Styles for FAQ Page */
 
-/* Tablet Styles */
+/*---------- TABLET STYLES ------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  /* Base Styles for Header/Footer (All Pages) */
+  /* Tablet Styles for Header/Footer (All Pages) */
 
   .header-wrapper {
     display: flex;
@@ -294,17 +291,22 @@ body {
 
   .unplugged-logo {
     display: flex;
+    justify-content: flex-start;
     flex-flow: row wrap;
     width: 50%;
-    padding: 15px 0;
+    padding: 15px 0 15px 0px;
+  }
+
+  .unplugged-logo a {
+    padding: 0 0 0 120px;
   }
 
   .unplugged-logo img,
   .unplugged-logo a {
     display: flex;
+    justify-content: flex-start;
     flex-flow: row wrap;
-    width: 70%;
-    padding: 0 50px 0 0;
+    width: 60%;
   }
 
   nav {
@@ -317,10 +319,6 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-flow: row wrap;
-  }
-
-  nav ul li a {
-    font-size: 1em;
   }
 
   #faq {
@@ -349,17 +347,16 @@ body {
   .footer-contact h3,
   .social h3 {
     margin: 0 0 15px 0;
+    font-size: 24px;
   }
 
-  .copyright {
-    width: 100%;
-    padding-top: 50px;
+  .social-emblems a {
+    width: 16%;
   }
 
-  /* Base Tablet Style for Homepage */
+  /* Tablet Style for Homepage */
 
   .headline {
-    margin: 0;
     height: 600px;
     background: url(../img/jake-melara-30679-unsplash-tablet.jpg);
     background-size: cover;
@@ -371,23 +368,20 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 90px 200px 0 65px;
-    margin: 0;
-    color: #e2e3ed;
-    font-size: 2.25em;
-    font-family: "Poppins";
-    font-weight: 500;
+    width: 69%;
+    padding: 95px 0 0 65px;
+    font-size: 48px;
   }
 
-  /* Base Styles for About Page */
+  /* Tablet Styles for About Page */
 
-  /* Base Styles for FAQ Page */
+  /* Tablet Styles for FAQ Page */
 }
 
-/* Desktop Styles */
+/*---------- DESKTOP STYLES ------------- */
 
 @media only screen and (min-width: 1200px) {
-  /* Base Styles for Header/Footer (All Pages) */
+  /* Desktop Styles for Header/Footer (All Pages) */
 
   .header-wrapper {
     display: flex;
@@ -396,33 +390,35 @@ body {
 
   .unplugged-logo {
     display: flex;
+    justify-content: flex-start;
     flex-flow: row wrap;
     width: 50%;
-    padding: 15px 0;
+    padding: 15px 0 15px 0px;
+  }
+
+  .unplugged-logo a {
+    padding: 0 0 0 120px;
   }
 
   .unplugged-logo img,
   .unplugged-logo a {
     display: flex;
+    justify-content: flex-start;
     flex-flow: row wrap;
-    width: 70%;
-    padding: 0 50px 0 0;
+    width: 60%;
   }
 
   nav {
     width: 50%;
     border-top: none;
-    padding: 15px 0;
+    padding: 20px 0;
   }
 
   nav ul {
     display: flex;
     justify-content: flex-end;
     flex-flow: row wrap;
-  }
-
-  nav ul li a {
-    font-size: 1em;
+    padding: 20px 0;
   }
 
   #faq {
@@ -448,14 +444,49 @@ body {
     width: 50%;
   }
 
-  .copyright {
-    width: 100%;
-    padding-top: 50px;
+  .footer-contact h3,
+  .social h3 {
+    margin: 0 0 15px 0;
+    font-size: 30px;
   }
 
-  /* Base Styles for About Page */
+  .footer-address,
+  .footer-address a {
+    font-size: 18px;
+    height: 55px;
+  }
 
-  /* Base Styles for FAQ Page */
+  .social-emblems a {
+    width: 15%;
+  }
+
+  .copyright p {
+    font-size: 18px;
+  }
+
+  /* Desktop Style for Homepage */
+
+  .headline {
+    height: 600px;
+    background: url(../img/jake-melara-30679-unsplash-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .headline h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 56%;
+    padding: 20px 0 0 120px;
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  /* Desktop Styles for About Page */
+
+  /* Desktop Styles for FAQ Page */
 }
 
 /* ==========================================================================
