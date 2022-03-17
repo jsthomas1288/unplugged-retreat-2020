@@ -801,6 +801,173 @@ body {
     line-height: 75px;
   }
 
+  .newsletter-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 45px;
+  }
+
+  .newsletter-signup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 50%;
+  }
+
+  .newsletter-signup h3 {
+    font-size: 30px;
+    width: 52%;
+    padding: 0 0 0 202px;
+  }
+
+  .newsletter-signup p {
+    width: 47%;
+    padding: 0;
+    font-size: 18px;
+    padding: 20px 0 0 202px;
+  }
+
+  #break {
+    display: inline-block;
+    line-break: normal;
+  }
+
+  .signup-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 50%;
+    margin: 0;
+  }
+
+  .signup-form h3 {
+    width: 35%;
+    margin: 0;
+    padding: 0 0 20px 75px;
+    font-size: 30px;
+  }
+
+  #email {
+    width: 53%;
+    height: 50px;
+    font-size: 18px;
+    margin: 0 202px 0 75px;
+  }
+
+  #button {
+    width: 53%;
+    height: 50px;
+    font-size: 24px;
+    padding: 0;
+    margin: 0 202px 0 75px;
+  }
+
+  .general-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+
+  .general-info h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 0 100px 0;
+    font-size: 36px;
+    margin: 0 0 0 120px;
+    width: 70.5%;
+  }
+
+  .general-info p {
+    padding: 25px 0 50px 0;
+    margin: 0;
+    width: 43.5%;
+    font-size: 18px;
+  }
+
+  .general-info i {
+    font-size: 72px;
+  }
+
+  .campground,
+  .bed,
+  .utensils {
+    width: 33%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  .shoe-prints,
+  .smile,
+  .wifi {
+    width: 33%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  #campground,
+  #bed,
+  #utensils,
+  #shoe-prints,
+  #smile,
+  #wifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .previous-retreats {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 100px 0 100px 0;
+  }
+
+  .previous-retreats h2 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0 0 100px 120px;
+    width: 64%;
+  }
+
+  .split-view {
+    display: flex;
+    flex-flow: row wrap;
+    width: 48.5%;
+    margin-left: 40px;
+  }
+
+  .previous-retreats a {
+    display: flex;
+    flex-flow: row wrap;
+    width: 48%;
+    padding: 0;
+  }
+
+  .previous-retreats img {
+    width: 79%;
+    padding: 0 0 0 120px;
+  }
+
+  .previous-retreats h3 {
+    display: flex;
+    flex-flow: column;
+    font-size: 30px;
+    width: 61%;
+    padding: 0 0 20px 0;
+  }
+
+  .previous-retreats p {
+    display: flex;
+    flex-flow: column;
+    width: 73%;
+    padding: 0;
+    font-size: 18px;
+  }
+
   /* Desktop Styles for About Page */
 
   /* Desktop Styles for FAQ Page */
