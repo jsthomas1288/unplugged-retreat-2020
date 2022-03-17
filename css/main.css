@@ -538,6 +538,158 @@ body {
     font-size: 48px;
   }
 
+  .newsletter-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 45px;
+  }
+
+  .newsletter-signup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    width: 50%;
+  }
+
+  .newsletter-signup h3 {
+    font-size: 24px;
+    width: 66%;
+    padding: 0 0 20px 0;
+  }
+
+  .newsletter-signup p {
+    width: 66%;
+    padding: 0;
+  }
+
+  #break {
+    display: inline-block;
+    line-break: normal;
+  }
+
+  .signup-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 50%;
+    margin: 0;
+  }
+
+  .signup-form h3 {
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-size: 24px;
+  }
+
+  #email {
+    width: 76%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  #button {
+    width: 76%;
+    height: 40px;
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .general-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .general-info h2 {
+    padding: 95px 0 35px 65px;
+    font-size: 36px;
+    margin: 0;
+    width: 83%;
+  }
+
+  .general-info p {
+    padding: 25px 0 50px 0;
+    margin: 0;
+    width: 52%;
+  }
+
+  .general-info i {
+    font-size: 72px;
+  }
+
+  .campground,
+  .bed {
+    width: 50%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .utensils,
+  .shoe-prints {
+    width: 50%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .smile,
+  .wifi {
+    width: 50%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .previous-retreats {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 100px 0 100px 0;
+  }
+
+  .previous-retreats h2 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0 0 25px 65px;
+    width: 64%;
+  }
+
+  .split-view {
+    display: flex;
+    flex-flow: row wrap;
+    width: 49%;
+    margin-left: 15px;
+  }
+
+  .previous-retreats a {
+    display: flex;
+    flex-flow: row wrap;
+    width: 49%;
+    padding: 0;
+  }
+
+  .previous-retreats img {
+    width: 82%;
+    padding: 0 0 0 65px;
+  }
+
+  .previous-retreats h3 {
+    display: flex;
+    flex-flow: column;
+    font-size: 24px;
+    width: 61%;
+    padding: 0 0 15px 0;
+  }
+
+  .previous-retreats p {
+    display: flex;
+    flex-flow: column;
+    width: 82%;
+    padding: 0;
+  }
+
   /* Tablet Styles for About Page */
 
   /* Tablet Styles for FAQ Page */
