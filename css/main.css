@@ -765,10 +765,19 @@ p.available {
     width: 83%;
   }
 
+  .amenities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0 110px 95px 110px;
+  }
+
   .general-info p {
-    padding: 25px 0 50px 0;
+    padding: 25px 0 0 0;
     margin: 0;
-    width: 52%;
+    width: 75%;
   }
 
   .general-info i {
@@ -776,24 +785,34 @@ p.available {
   }
 
   .campground,
-  .bed {
-    width: 50%;
-    display: flex;
-    flex-flow: row-reverse;
-  }
-
+  .bed,
   .utensils,
-  .shoe-prints {
-    width: 50%;
-    display: flex;
-    flex-flow: row-reverse;
-  }
-
+  .shoe-prints,
   .smile,
   .wifi {
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row-reverse;
+  }
+
+  #campground,
+  #bed,
+  #utensils,
+  #shoe-prints,
+  #smile,
+  #wifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  #smile,
+  #wifi {
+    padding-bottom: 0;
   }
 
   .previous-retreats {
