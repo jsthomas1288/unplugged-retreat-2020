@@ -1085,6 +1085,78 @@ p.available {
   /* Desktop Styles for About Page */
 
   /* Desktop Styles for FAQ Page */
+
+  .row-one,
+  .row-two {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  #first-question {
+    width: 41%;
+    padding: 0 0 0 120px;
+  }
+
+  #second-question {
+    width: 46%;
+    padding: 0 0 0 30px;
+  }
+
+  #third-question {
+    width: 41%;
+    padding: 0 0 0 120px;
+  }
+
+  #fourth-question {
+    width: 46%;
+    padding: 0 0 0 30px;
+  }
+
+  .faq h1 {
+    font-size: 48px;
+    padding: 95px 0 45px 120px;
+    margin: 0;
+    width: 72%;
+    line-height: auto;
+  }
+
+  .faq h3 {
+    font-size: 18px;
+    padding: 0 0 20px 0;
+    line-height: 18px;
+    width: 84%;
+  }
+
+  #second-question h3 {
+    width: 75%;
+  }
+
+  .faq p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  #first-question p {
+    margin-bottom: 55px;
+    width: 91%;
+  }
+
+  #second-question p {
+    margin-bottom: 35px;
+    width: 78%;
+  }
+
+  p.accommodate {
+    width: 91%;
+    margin: 0 0 120px 0;
+  }
+
+  p.available {
+    width: 78%;
+    margin: 0 0 102px 0;
+  }
 }
 
 /* ==========================================================================
