@@ -443,6 +443,49 @@ body {
 
 /* Base Mobile Styles for FAQ Page */
 
+.faq-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #527158;
+  color: #e2e3ed;
+  margin: 0;
+  width: 100%;
+}
+
+.faq h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 50px 0 50px 15px;
+  margin: 0;
+  width: 72%;
+  line-height: 30px;
+}
+
+.faq h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 0 15px 15px;
+  margin: 0;
+  width: 83%;
+  line-height: 24px;
+}
+
+.faq p {
+  font-size: 14px;
+  padding: 0 0 45px 15px;
+  margin: 0;
+  width: 90%;
+  line-height: 18px;
+}
+
+p.accommodate,
+p.available {
+  width: 79.5%;
+}
+
 /*---------- TABLET STYLES ------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -693,6 +736,77 @@ body {
   /* Tablet Styles for About Page */
 
   /* Tablet Styles for FAQ Page */
+
+  .row-one,
+  .row-two {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  #first-question {
+    width: 41%;
+    padding: 0 0 0 65px;
+  }
+
+  #second-question {
+    width: 46%;
+    padding: 0 0 0 30px;
+  }
+
+  #third-question {
+    width: 41%;
+    padding: 0 0 0 65px;
+  }
+
+  #fourth-question {
+    width: 46%;
+    padding: 0 0 0 30px;
+  }
+
+  .faq h1 {
+    font-size: 36px;
+    padding: 95px 0 30px 65px;
+    margin: 0;
+    width: 72%;
+    line-height: 48px;
+  }
+
+  .faq h3 {
+    font-size: 14px;
+    padding: 0 0 20px 0;
+    line-height: 18px;
+    width: 84%;
+  }
+
+  #second-question h3 {
+    width: 75%;
+  }
+
+  .faq p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #first-question p {
+    margin-bottom: 55px;
+    width: 100%;
+  }
+
+  #second-question p {
+    margin-bottom: 35px;
+    width: 90%;
+  }
+
+  p.accommodate {
+    width: 100%;
+    margin: 0 0 120px 0;
+  }
+
+  p.available {
+    width: 85%;
+    margin: 0 0 102px 0;
+  }
 }
 
 /*---------- DESKTOP STYLES ------------- */
