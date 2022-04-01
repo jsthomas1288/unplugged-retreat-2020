@@ -1457,6 +1457,14 @@ p.available {
 
   /* Desktop Styles for FAQ Page */
 
+  body {
+    background: #202322;
+  }
+
+  .faq {
+    height: 525px;
+  }
+
   .row-one,
   .row-two {
     display: flex;
@@ -1527,6 +1535,15 @@ p.available {
   p.available {
     width: 78%;
     margin: 0 0 102px 0;
+  }
+
+  .footer-wrapper {
+    height: 250px;
+    padding-top: 60px;
+  }
+
+  .copyright {
+    padding: 60px 0 0 0;
   }
 }
 
