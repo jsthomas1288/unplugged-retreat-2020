@@ -1111,7 +1111,11 @@ p.available {
     width: 50%;
   }
 
-  .footer-contact h3,
+  .footer-contact h3 {
+    margin: 0;
+    font-size: 30px;
+  }
+
   .social h3 {
     margin: 0 0 15px 0;
     font-size: 30px;
